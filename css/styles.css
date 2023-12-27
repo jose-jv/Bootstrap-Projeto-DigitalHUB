@@ -1,3 +1,50 @@
-h1{
-    background-color: brown;
+/*Gerais*/
+body{
+    font-family: 'roboto' , sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/*Barra de navegação*/
+header, .navbar{
+    background-color: #0c395a
+}
+
+#nav-container{
+    padding-top:0 ;
+    padding-bottom:0 ;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+    padding: 0;
+    color: aliceblue;
+}
+
+.navbar-brand :hover{
+  color: aliceblue;
+}
+
+#navbar-links a{
+    color: aliceblue;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+
+.navbar-nav{
+    margin-right: 20px;
 }
