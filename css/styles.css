@@ -96,6 +96,29 @@ header, .navbar{
 }
 
 
+/*sobre a empresa*/
+#about-area{
+    background-color: rgb(234, 234, 235);
+}
+
+.main-title{
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+.abount-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-i{
+    color: red;
+    margin-right: 10px;
+}
 
 
 
