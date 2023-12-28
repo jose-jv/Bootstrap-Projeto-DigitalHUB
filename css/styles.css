@@ -44,7 +44,59 @@ header, .navbar{
     padding: 1rem .8rem;
 }
 
-
-.navbar-nav{
-    margin-right: 20px;
+/*slider*/
+.container-fluid{
+    padding: 0%;
 }
+
+#carouselExampleCaptions  .carouselExampleCaptions , .carousel-inner , .carousel-item{
+   height: 90vh;
+}
+
+#carouselExampleCaptions .carousel-caption{
+    top: 40%;
+}
+
+
+
+
+#carouselExampleCaptions .carousel-caption h5{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 20px;
+
+   
+
+
+ }
+ 
+ #carouselExampleCaptions .carousel-caption p{
+     font-size: 22px;
+     font-weight: 300;
+     margin-bottom: 50px;
+     color: #FFF;
+  }
+ 
+ 
+ .main-btn{
+    background-color: #261157;
+    color: #fff;
+    font-size: 20px;
+    
+    border-radius:05px ;
+    border: 5px solid  #261157;
+    transition: .5;
+    text-decoration: none;
+ }
+.main-btn:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #261157;
+}
+
+
+
+
+
+

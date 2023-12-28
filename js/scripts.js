@@ -1,1 +1,1 @@
-console.log("funcionando")
+const carousel = new bootstrap.Carousel('#myCarousel')
