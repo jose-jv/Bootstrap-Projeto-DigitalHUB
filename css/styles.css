@@ -120,6 +120,32 @@ header, .navbar{
     margin-right: 10px;
 }
 
+/*serviçoes da empresa*/
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.service-box i, .servise-box h4{
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 ,.service-box:hover >p{
+color: red;
+}
+
 
 
 
