@@ -123,6 +123,7 @@ $(document).ready(function(){
      //parallax
      setTimeout(function(){
         $('#data-area').parallax({imageSrc:'img/imgparallax.jpg'});
+        $('#apply-area').parallax({color:"black"});
 
      }, 250);
 

@@ -175,6 +175,48 @@ color: red;
        border: 0.5px  solid black;
 }
 
+/*Trabalhe conosco*/
+
+#apply-area{
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
+}
+
+#apply-area .apply-box{
+    text-align: center;
+    padding: 120px 50px;
+
+}
+
+#company-img{
+    background-image: url(../img/job.jpg);
+    background-size:cover ;
+    height: 100%;
+}
+
+
+#pattern-img h4, #pattern-img p{
+    color: #FFF;
+}
+
+#pattern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+#apply-area{
+    background-color: #2c2a2a;
+}
+
 
 
 
