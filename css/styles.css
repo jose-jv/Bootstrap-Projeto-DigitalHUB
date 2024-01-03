@@ -219,4 +219,43 @@ color: red;
 
 
 
+/*portfolio*/
+
+.project-box{
+    margin-bottom: 30px;
+}
+
+
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+
+    
+}
+
+
+.projectimg{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+
+#filter-btn-box .filter-btn{
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    margin:  0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+#filter-btn-box .filter-btn.active,  #filter-btn-box .filter-btn:hover{
+    background-color: red;
+    color: #FFF;
+}
+
+
 
