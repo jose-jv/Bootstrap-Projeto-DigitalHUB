@@ -73,7 +73,7 @@ header, .navbar{
  #carouselExampleCaptions .carousel-caption p{
      font-size: 22px;
      font-weight: 300;
-     margin-bottom: 50px;
+     margin-bottom: 20px;
      color: #FFF;
   }
  
@@ -169,8 +169,8 @@ color: #f87193;
 
 .card {
        text-align: center;
-       width: 250px;
-       height: 250px;
+       width: 200px;
+       height: 200px;
        background-color: aliceblue;
        border: 0.5px  solid black;
 }
@@ -365,7 +365,7 @@ color: #f87193;
 }
 
 
-#msg box{
+#msg .box{
     font-size: 22px;
 }
 
@@ -390,4 +390,217 @@ color: #f87193;
     text-align: center;
     
     
+}
+
+@media(max-width:1018px){
+  /*carousel*/
+    #carouselExampleCaptions .carousel-caption h5{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 10px;
+
+   
+
+
+ }
+ 
+ #carouselExampleCaptions .carousel-caption p{
+     font-size: 16px;
+     
+     margin-bottom: 10px;
+     color: #FFF;
+  }
+ 
+ 
+ .main-btn{
+    background-color: #f87193;
+    color: #fff;
+    font-size: 15px;
+    
+    border-radius:05px ;
+    border: 5px solid  #f87193;
+    transition: .5;
+    text-decoration: none;
+ }
+.main-btn:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #f87193;
+}
+
+}
+
+@media(max-width:991px){
+   /*card time*/
+    .card {
+        text-align: center;
+        width: 150px;
+        height: 200px;
+        background-color: aliceblue;
+        border: 0.5px  solid black;
+ }
+
+  /*Portfolio*/
+ 
+
+#filter-btn-box{
+    margin-bottom: 15px;
+    text-align: center;
+
+    
+}
+
+
+.projectimg{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+}
+
+@media(max-width:866px){
+     /*carousel*/
+     #carouselExampleCaptions .carousel-caption h5{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        margin-bottom: 5px;
+    
+       
+    
+    
+     }
+     
+     #carouselExampleCaptions .carousel-caption p{
+         font-size: 16px;
+         
+         margin-bottom: 5px;
+         color: #FFF;
+      }
+
+
+      /*Dados da empresa*/
+
+.circle-box div {
+    padding: 0 10px;
+
+}
+.progressbar-text{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#data-area p {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+     
+}
+
+@media(max-width:786px){
+      
+    /*Trabalhe conosco*/
+
+#apply-area{
+    height: 500px;
+    
+}
+
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
+}
+
+#apply-area .apply-box{
+    text-align: center;
+    padding: 90px 25px;
+
+}
+
+#company-img{
+    background-image: url(../img/job.jpg);
+    background-size:cover ;
+    height: 100%;
+}
+
+
+#pattern-img h4, #pattern-img p{
+    color: #FFF;
+}
+
+#pattern-img h4{
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+#apply-area{
+    background-color: #2c2a2a;
+}
+
+/*news letter*/
+#email-inpunt{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid#f87193;
+    display:inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+   
+   
+}
+
+#news-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #f87193;
+    background-color: #f87193;
+    text-transform: uppercase;
+    color: #fff;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130;
+    position: absolute;
+    transition: .5s;
+}
+
+}
+
+
+@media(max-widht:768px){
+      /*slider*/
+
+      #carouselExampleCaptions .carousel-caption h5{
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        margin-bottom: 0px;
+    
+       
+    
+    
+     }
+     
+     #carouselExampleCaptions .carousel-caption p{
+         font-size: 7px;
+         
+         margin-bottom: 0px;
+         color: #FFF;
+      }
+
 }
