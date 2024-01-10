@@ -17,6 +17,11 @@ p, li {
 }
 
 /*Barra de navegação*/
+.nav-item {
+    user-select: none;
+  }
+  
+
 header, .navbar{
     background-color: #0c395a
 }
