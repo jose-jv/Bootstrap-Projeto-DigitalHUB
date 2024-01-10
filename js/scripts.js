@@ -175,6 +175,49 @@ function eachBoxes(type,boxes){
 }
 
 
+//navbar responsivo
+
+const menuToggle = $('.navbar-toggler');
+const navbarLinks = $('#navbar-links');
+
+menuToggle.click(function () {
+  navbarLinks.toggleClass('show');
+});
+
+
+  // Rolagem suave para links do menu
+  $('.nav-item').click(function (e) {
+   e.preventDefault();
+   const targetSection = $(this).attr('id') + '-area';
+   const targetOffset = $('#' + targetSection).offset();
+
+   if (targetOffset) {
+     $('html, body').animate({
+       scrollTop: targetOffset.top - 70
+     }, 1500);
+
+     // Fechar o menu após clicar
+     navbarLinks.removeClass('show');
+   }
+ });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //scroll para secoes
 let navBtn = $('.nav-item');
 
